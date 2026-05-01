@@ -1,0 +1,66 @@
+export const STATIONS = [
+  {
+    id: '1',
+    name: 'Kigali Heights Charging Hub',
+    address: 'KG 7 Ave, Kigali',
+    distance: '0.5km',
+    price: 500,
+    speed: '22kW AC',
+    connector: 'Type 2',
+    status: 'available',
+    fastCharge: true,
+    level: 'Level P2',
+    image: null,
+    coordinates: { latitude: -1.9441, longitude: 30.0619 },
+    co2Savings: 2.4,
+  },
+  {
+    id: '2',
+    name: 'Inzora Rooftop',
+    address: 'KG 5 Ave, Kigali',
+    distance: '1.2km',
+    price: 450,
+    speed: '11kW AC',
+    connector: 'Type 2',
+    status: 'available',
+    fastCharge: false,
+    level: 'Rooftop',
+    image: null,
+    coordinates: { latitude: -1.9521, longitude: 30.0589 },
+    co2Savings: 2.1,
+  },
+  {
+    id: '3',
+    name: 'Norrsken Hub',
+    address: 'KN 3 Rd, Kigali',
+    distance: '2.4km',
+    price: 480,
+    speed: '50kW DC',
+    connector: 'CCS',
+    status: 'busy',
+    fastCharge: true,
+    level: 'Ground Floor',
+    image: null,
+    coordinates: { latitude: -1.9381, longitude: 30.0649 },
+    co2Savings: 2.3,
+  },
+];
+
+export const PAYMENT_METHODS = [
+  {
+    id: 'mtn',
+    name: 'MTN Mobile Money',
+    detail: '+250 788 ··· 432',
+    color: '#F5C518',
+    textColor: '#000',
+  },
+  {
+    id: 'airtel',
+    name: 'Airtel Money',
+    detail: 'Pay via Airtel wallet',
+    color: '#E30613',
+    textColor: '#fff',
+  },
+];
+
+export const SESSION_FEE_RATE = 0.08;
